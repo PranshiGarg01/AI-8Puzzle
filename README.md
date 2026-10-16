@@ -26,7 +26,6 @@ Heuristics planned for GBFS and A*: Misplaced Tiles and Manhattan Distance.
 Open `index.html` in a browser, or use the VS Code Live Server extension.
 
 ## GitHub Pages
-Add the deployed URL here after publishing the repository.
 
 ## References
 - Bootstrap documentation: https://getbootstrap.com/docs/5.3/
