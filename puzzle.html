@@ -143,6 +143,13 @@
       </div>
     </section>
 
+
+    <section class="visualizer-lab" id="visualizerLab">
+      <div class="search-heading"><span class="section-kicker">03 / SEARCH VISUALIZER</span><h2>WATCH THE <span class="text-cyan">SEARCH.</span></h2><p>Step through the solution returned by your selected algorithm, with playback controls and a live board.</p></div>
+      <div class="visualizer-layout"><div class="visualizer-main"><div class="visualizer-board-title"><span class="section-kicker">CURRENT STATE</span><span class="step-counter" id="visualStepCounter">STEP 0 / 0</span></div><div class="visualizer-board" id="visualizerBoard" aria-label="Current puzzle state"></div><p class="visualizer-caption" id="visualizerCaption">Run a search first to load a solution path.</p><div class="playback-controls"><button type="button" class="btn btn-outline-pixel" id="previousStepBtn" disabled>◀ Previous</button><button type="button" class="btn btn-pixel" id="playPauseBtn" disabled>▶ Run</button><button type="button" class="btn btn-outline-pixel" id="nextStepBtn" disabled>Next ▶</button><button type="button" class="btn btn-outline-pixel" id="resetPlaybackBtn" disabled>↺ Reset</button></div><div class="playback-options"><label for="playbackSpeed">PLAYBACK SPEED</label><select id="playbackSpeed" class="form-select pixel-select"><option value="1200">Slow</option><option value="650" selected>Normal</option><option value="250">Fast</option></select></div></div>
+      <aside class="visualizer-side"><div class="algorithm-note"><span class="section-kicker">ALGORITHM NOTES</span><h3 id="algorithmNoteTitle">Ready to explore</h3><p id="algorithmNoteText">Choose an algorithm and run a search.</p></div><div class="exploration-note"><span class="section-kicker">PATH OVERVIEW</span><div class="exploration-metric"><span>Current move</span><strong id="currentMoveMetric">0</strong></div><div class="exploration-metric"><span>Total moves</span><strong id="totalMovesMetric">0</strong></div><div class="exploration-metric"><span>State shown</span><strong id="stateTypeMetric">Initial</strong></div><p class="small-muted">This replays the returned solution path, not every internal frontier operation.</p></div></aside></div>
+    </section>
+
     <section class="rules-card">
       <div class="rules-heading"><span class="section-kicker">PUZZLE RULES</span><span aria-hidden="true">✦</span></div>
       <div class="row g-3">
@@ -165,5 +172,6 @@
   <script src="js/puzzle.js"></script>
   <script src="js/search.js"></script>
   <script src="js/search-ui.js"></script>
+  <script src="js/visualizer.js"></script>
 </body>
 </html>

@@ -93,6 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
       try {
         const result = window.PuzzleSearch.solve(start, goal, options);
         displayResult(result);
+        document.dispatchEvent(new CustomEvent("puzzle-search-result", { detail: result }));
       } catch (error) {
         console.error(error);
         setStatus("error", "SEARCH ERROR", "An unexpected error occurred. Open the browser console for details.");
