@@ -79,7 +79,9 @@ The exact values depend on the puzzle configuration and algorithm implementation
 
 ## Limitations
 
-Search performance depends on the selected algorithm, puzzle configuration, and search limits. Depth-first and depth-limited methods do not guarantee the shortest solution in general. The completeness and optimality of each method depend on its implementation and configuration.
+- Search performance depends on the selected algorithm, puzzle configuration, and search limits. 
+- Depth-first and depth-limited methods do not guarantee the shortest solution in general. 
+- The completeness and optimality of each method depend on its implementation and configuration.
 
 ## Author
 
