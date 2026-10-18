@@ -31,7 +31,6 @@ The project covers the following algorithms:
 - **Manhattan Distance:** Adds the horizontal and vertical distances of each numbered tile from its goal position.
 
 These heuristics are used by Greedy Best-First Search and A* Search.
-# Interactive 8-Puzzle Problem Solver Using AI Search Algorithms
 
 ## Technologies Used
 
