@@ -20,7 +20,7 @@ Heuristics planned for GBFS and A*: Misplaced Tiles and Manhattan Distance.
 ## Student details
 - Name: Pranshi Garg
 - Registration Number: 24BCI0220
-- Course: Artificial Intelligence
+- Course: Artificial Intelligence (BCSE306L)
 
 ## Run locally
 Open `index.html` in a browser, or use the VS Code Live Server extension.

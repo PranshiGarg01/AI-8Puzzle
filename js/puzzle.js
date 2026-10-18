@@ -2,16 +2,42 @@
 document.addEventListener("DOMContentLoaded", () => {
   const DEFAULT_INITIAL = [2, 8, 3, 1, 6, 4, 7, 0, 5];
   const DEFAULT_GOAL = [1, 2, 3, 8, 0, 4, 7, 6, 5];
-  const VALUES = [
-    { value: "0", label: "_" },
-    { value: "1", label: "1" },
-    { value: "2", label: "2" },
-    { value: "3", label: "3" },
-    { value: "4", label: "4" },
-    { value: "5", label: "5" },
-    { value: "6", label: "6" },
-    { value: "7", label: "7" },
-    { value: "8", label: "8" }
+  const VALUES = [{
+      value: "0",
+      label: "_"
+    },
+    {
+      value: "1",
+      label: "1"
+    },
+    {
+      value: "2",
+      label: "2"
+    },
+    {
+      value: "3",
+      label: "3"
+    },
+    {
+      value: "4",
+      label: "4"
+    },
+    {
+      value: "5",
+      label: "5"
+    },
+    {
+      value: "6",
+      label: "6"
+    },
+    {
+      value: "7",
+      label: "7"
+    },
+    {
+      value: "8",
+      label: "8"
+    }
   ];
 
   const initialBoard = document.getElementById("initialBoard");
